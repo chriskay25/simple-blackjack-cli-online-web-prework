@@ -50,9 +50,9 @@ end
 #####################################################
 
 def runner
-  until card_total > 21
     welcome 
     initial_round
+    until card_total > 21
     hit?
     display_card_total
   end
